@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Codeforces — a problem-solving journal</title>
+  <desc id="desc">A navy banner with blue and green accents, celebrating learning through C++ and problem solving.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#172641"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <path d="M 0 354 H 1200" stroke="url(#line)" stroke-width="12"/>
+  <rect x="64" y="57" width="205" height="30" rx="15" fill="#60a5fa" fill-opacity=".12" stroke="#60a5fa" stroke-opacity=".3"/>
+  <text x="82" y="77" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#93c5fd">THE LEARNING JOURNAL</text>
+  <text x="62" y="166" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2" fill="#f8fafc">Codeforces</text>
+  <text x="66" y="214" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#cbd5e1">Small problems. Steady progress.</text>
+  <text x="66" y="286" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#647e9f">C++  /  LOGIC  /  CONSISTENCY</text>
+  <g transform="translate(785 58)">
+    <rect width="340" height="244" rx="18" fill="#0b1224" stroke="#334155"/>
+    <circle cx="25" cy="24" r="5" fill="#fb7185"/>
+    <circle cx="43" cy="24" r="5" fill="#fbbf24"/>
+    <circle cx="61" cy="24" r="5" fill="#34d399"/>
+    <path d="M 0 48 H 340" stroke="#334155"/>
+    <text x="26" y="91" font-family="monospace" font-size="15" fill="#64748b">// one step at a time</text>
+    <text x="26" y="125" font-family="monospace" font-size="17" fill="#93c5fd">while (learning) {</text>
+    <text x="46" y="155" font-family="monospace" font-size="17" fill="#e2e8f0">solve();</text>
+    <text x="46" y="185" font-family="monospace" font-size="17" fill="#6ee7b7">improve();</text>
+    <text x="26" y="215" font-family="monospace" font-size="17" fill="#93c5fd">}</text>
+  </g>
+</svg>

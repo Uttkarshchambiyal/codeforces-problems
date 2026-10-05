@@ -1,0 +1,19 @@
+# Compiled programs and build output
+*.bin
+*.exe
+*.out
+*.o
+*.obj
+*.dSYM/
+a.out
+solution
+build/
+
+# Local editor and Competitive Programming Helper data
+.vscode/
+.cph/
+.idea/
+
+# macOS files
+.DS_Store
+._*
