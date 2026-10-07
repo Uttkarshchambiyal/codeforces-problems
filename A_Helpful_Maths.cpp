@@ -49,35 +49,30 @@ void fastio() {
 // ─── Solution ───────────────────────────────────────────────
 void solve() {
 
-    string Fname;
-    string Sname;
+string val;
 
-     cin >> Fname;
-     cin >> Sname;
+cin >> val;
 
-   for(char &c : Fname){
-    c = tolower(c);
-   }
-    for(char &c : Sname){
-    c = tolower(c);
-   }
+vector<char>arr;
 
-
-    for(int i = 0; i < Fname.size(); i++){
-        if(int(Fname[i]) > int(Sname[i])  ){
-            cout<<1;
-          return;
-        }
-        else if(int(Fname[i]) < int(Sname[i])){
-            cout<<-1;
-           return;
-        }
+for(char c : val){
+    if(c!='+'){
+        arr.push_back(c);
+    }
 }
-   cout<<0;
+
+sort(arr.begin() , arr.end());
+
+for(int i = 0; i<arr.size(); i++){
+    if(i>0){
+        cout<<"+";
+    }
+    cout<<arr[i];
+}
+
 }
 
 int main() {
     fastio();
         solve();
-    return 0;
 }
